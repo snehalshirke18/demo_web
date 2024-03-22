@@ -1,0 +1,11 @@
+<nav class="site-nav">
+    <div class="site-nav-left-wrapper">
+        <div class="site-nav-left">
+            {{#if @site.logo}}
+            <a class="site-nav-logo nav-page-about-logo" href="{{@site.url}}"><span style="font-size: 30px !important;">🏠</span><span style="font-size: 14px !important; margin-left:8px">Home</span></a>
+            {{else}}
+            <a class="site-nav-logo" href="{{@site.url}}">{{@site.title}}</a>
+            {{/if}}
+        </div>
+    </div>
+</nav>
